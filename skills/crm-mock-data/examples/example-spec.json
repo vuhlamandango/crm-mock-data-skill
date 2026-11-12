@@ -1,0 +1,14 @@
+{
+  "collection_name": "Test Mock Data",
+  "environment": "dev",
+  "entities": {
+    "lead": {"count": 2, "fields": {"firstname": "Ada", "lastname": "{{$randomLastName}}", "vu_score": 7}},
+    "realty_contact": {"count": 2},
+    "realty_incident": {"count": 1, "fields": {"title": "Realty test"}},
+    "contact_opportunity": {"count": 9, "contact_fields": {"firstname": "Pat", "gendercode": {"type":"optionset","value":1}}},
+    "loan": {"count": 3, "fields": {"loanAmount": 250000, "state": "KS"}},
+    "vu_loan": {"count": 5},
+    "incident": {"count": 2, "fields": {"title": "Test & <case>"}},
+    "task": {"count": 1}
+  }
+}
